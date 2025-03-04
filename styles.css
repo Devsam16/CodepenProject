@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;     
+    list-style-type: none; 
+    text-decoration: none;                                        
+}
+.container{
+    background-color: #131417;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    grid-template-areas: "sidebar content";
+    grid-template-columns: 0.5fr 3fr;
+    gap: 10px;
+    padding: 15px;
+}
+.sidebar{
+    border: 6px solid brown;
+    background-color: #1E1F26;
+}
+
+.sidebar p{
+    color: #8B8E9A;
+    font-size: 11px;
+}
+.btn{
+    width: 115px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, red, orange, yellow, green, blue, purple) 1;
+}
+.btn a{
+    color: white;
+}
+.menulist{
+    gap: 25em;
+}
+.menulist li a{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+.pro{
+    background-color: #FFDD40;
+    padding: 2px 2px;
+}
+
+
+.content{
+    border: 6px solid rgb(218, 2, 49);
+    background-color: #131417;
+    height: 100%;
+} 
+.headercontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.search-bar {
+    background-color: #252830;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+.btn2{
+    background-color: #47CF73;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+}
+.btn2:hover{
+    background-color: #43925c;
+    
+}
+.btn2 a{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn3{
+    background-color: #20232b;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+}
+.btn3:hover{
+    background-color: #444857;
+}
+.btn3 a{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.herocontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lefthero h1{
+    color: white;
+}
+.lefthero h2{
+    color: white;
+}
+.codecontainer{
+    background-color: #3B3E46;
+}
+.html{
+    background-color: #1D1E22;
+}
+.js{
+    background-color: #1D1E22;
+}
+.scss{
+    background-color: #1D1E22;
+}
